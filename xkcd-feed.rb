@@ -1,6 +1,10 @@
 require 'open-uri'
 require 'sinatra'
 
+get '/' do
+	redirect to('https://github.com/joshka/xkcd-with-alt-text')
+end
+
 get '/feed' do
 	url = 'https://xkcd.com/rss.xml'
 	match = /(&lt;img.*? alt="(?<alt>.*?)".*?&gt;)/
