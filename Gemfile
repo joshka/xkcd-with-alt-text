@@ -1,3 +1,5 @@
-ruby '2.4.0'
-source 'http://rubygems.org'
+ruby '>=3.1.3'
+source 'https://rubygems.org'
 gem 'sinatra'
+gem 'open-uri'
+gem 'rackup'
