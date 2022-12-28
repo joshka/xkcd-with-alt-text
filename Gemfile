@@ -4,3 +4,5 @@ gem 'sinatra'
 gem 'open-uri'
 gem 'rackup'
 gem 'puma'
+
+gem "foreman", "~> 0.87.2"

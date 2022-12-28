@@ -2,6 +2,7 @@ GEM
   remote: https://rubygems.org/
   specs:
     date (3.2.2)
+    foreman (0.87.2)
     mustermann (2.0.2)
       ruby2_keywords (~> 0.0.1)
     nio4r (2.5.8)
@@ -34,6 +35,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  foreman (~> 0.87.2)
   open-uri
   puma
   rackup
