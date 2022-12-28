@@ -4,10 +4,13 @@ GEM
     date (3.2.2)
     mustermann (2.0.2)
       ruby2_keywords (~> 0.0.1)
+    nio4r (2.5.8)
     open-uri (0.2.0)
       stringio
       time
       uri
+    puma (6.0.1)
+      nio4r (~> 2.0)
     rack (2.2.5)
     rack-protection (2.2.3)
       rack
@@ -32,6 +35,7 @@ PLATFORMS
 
 DEPENDENCIES
   open-uri
+  puma
   rackup
   sinatra
 
