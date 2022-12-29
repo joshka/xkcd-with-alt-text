@@ -1,10 +1,10 @@
 require 'open-uri'
 require 'sinatra'
-require 'kramdown'
+
+set :views, settings.root
 
 get '/' do
-	readme = File.read('README.md')
-	Kramdown::Document.new(readme).to_html
+	markdown :README
 end
 
 get '/feed' do
