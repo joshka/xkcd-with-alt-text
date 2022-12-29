@@ -1,8 +1,10 @@
 require 'open-uri'
 require 'sinatra'
+require 'kramdown'
 
 get '/' do
-	redirect to('https://github.com/joshka/xkcd-with-alt-text')
+	readme = File.read('README.md')
+	Kramdown::Document.new(readme).to_html
 end
 
 get '/feed' do
