@@ -8,3 +8,5 @@ gem 'rackup'
 gem 'puma'
 gem 'kramdown'
 gem "foreman", "~> 0.87.2"
+
+gem "rss", "~> 0.2.9"

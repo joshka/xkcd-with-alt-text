@@ -21,6 +21,8 @@ GEM
       rack (< 3)
       webrick
     rexml (3.2.5)
+    rss (0.2.9)
+      rexml
     ruby2_keywords (0.0.5)
     sinatra (3.0.5)
       mustermann (~> 3.0)
@@ -43,6 +45,7 @@ DEPENDENCIES
   open-uri
   puma
   rackup
+  rss (~> 0.2.9)
   sinatra
 
 RUBY VERSION
