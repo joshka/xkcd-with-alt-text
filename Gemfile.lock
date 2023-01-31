@@ -17,9 +17,6 @@ GEM
     rack (2.2.6.2)
     rack-protection (3.0.5)
       rack
-    rackup (1.0.0)
-      rack (< 3)
-      webrick
     rexml (3.2.5)
     rss (0.2.9)
       rexml
@@ -34,7 +31,6 @@ GEM
     time (0.2.1)
       date
     uri (0.12.0)
-    webrick (1.7.0)
 
 PLATFORMS
   ruby
@@ -44,7 +40,6 @@ DEPENDENCIES
   kramdown
   open-uri
   puma
-  rackup
   rss (~> 0.2.9)
   sinatra
 
@@ -52,4 +47,4 @@ RUBY VERSION
    ruby 3.2.0p0
 
 BUNDLED WITH
-   2.4.1
+   2.4.5
