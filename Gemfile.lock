@@ -14,7 +14,7 @@ GEM
       uri
     puma (6.1.1)
       nio4r (~> 2.0)
-    rack (2.2.6.3)
+    rack (2.2.6.4)
     rack-protection (3.0.5)
       rack
     rexml (3.2.5)
