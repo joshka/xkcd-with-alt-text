@@ -7,12 +7,12 @@ GEM
       rexml
     mustermann (3.0.0)
       ruby2_keywords (~> 0.0.1)
-    nio4r (2.5.8)
+    nio4r (2.5.9)
     open-uri (0.3.0)
       stringio
       time
       uri
-    puma (6.1.1)
+    puma (6.2.1)
       nio4r (~> 2.0)
     rack (2.2.6.4)
     rack-protection (3.0.5)
