@@ -28,7 +28,7 @@ GEM
       tilt (~> 2.0)
     stringio (3.0.4)
     tilt (2.0.11)
-    time (0.2.1)
+    time (0.2.2)
       date
     uri (0.12.1)
 
