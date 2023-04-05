@@ -4,10 +4,14 @@ on:
     branches:
       - main
   workflow_dispatch:
+
 jobs:
   deploy:
     name: Deploy app
     runs-on: ubuntu-latest
+    environment:
+      name: production
+      url: https://xkcd-with-alt-text.joshka.net
     steps:
       - uses: actions/checkout@v3
       - uses: superfly/flyctl-actions/setup-flyctl@master
