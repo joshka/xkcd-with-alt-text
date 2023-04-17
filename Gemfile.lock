@@ -15,19 +15,19 @@ GEM
     puma (6.2.1)
       nio4r (~> 2.0)
     rack (2.2.6.4)
-    rack-protection (3.0.5)
+    rack-protection (3.0.6)
       rack
     rexml (3.2.5)
     rss (0.2.9)
       rexml
     ruby2_keywords (0.0.5)
-    sinatra (3.0.5)
+    sinatra (3.0.6)
       mustermann (~> 3.0)
       rack (~> 2.2, >= 2.2.4)
-      rack-protection (= 3.0.5)
+      rack-protection (= 3.0.6)
       tilt (~> 2.0)
     stringio (3.0.4)
-    tilt (2.0.11)
+    tilt (2.1.0)
     time (0.2.2)
       date
     uri (0.12.1)
