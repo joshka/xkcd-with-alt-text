@@ -17,8 +17,8 @@ GEM
     rack (2.2.8)
     rack-protection (3.1.0)
       rack (~> 2.2, >= 2.2.4)
-    rexml (3.2.5)
-    rss (0.2.9)
+    rexml (3.2.6)
+    rss (0.3.0)
       rexml
     ruby2_keywords (0.0.5)
     sinatra (3.1.0)
@@ -40,7 +40,7 @@ DEPENDENCIES
   kramdown
   open-uri
   puma
-  rss (~> 0.2.9)
+  rss (~> 0.3.0)
   sinatra
 
 RUBY VERSION
