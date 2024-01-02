@@ -1,6 +1,7 @@
 GEM
   remote: https://rubygems.org/
   specs:
+    base64 (0.2.0)
     date (3.3.4)
     foreman (0.87.2)
     kramdown (2.4.0)
@@ -15,19 +16,20 @@ GEM
     puma (6.4.0)
       nio4r (~> 2.0)
     rack (2.2.8)
-    rack-protection (3.1.0)
+    rack-protection (3.2.0)
+      base64 (>= 0.1.0)
       rack (~> 2.2, >= 2.2.4)
     rexml (3.2.6)
     rss (0.3.0)
       rexml
     ruby2_keywords (0.0.5)
-    sinatra (3.1.0)
+    sinatra (3.2.0)
       mustermann (~> 3.0)
       rack (~> 2.2, >= 2.2.4)
-      rack-protection (= 3.1.0)
+      rack-protection (= 3.2.0)
       tilt (~> 2.0)
     stringio (3.1.0)
-    tilt (2.2.0)
+    tilt (2.3.0)
     time (0.3.0)
       date
     uri (0.13.0)
